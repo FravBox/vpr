@@ -1,6 +1,6 @@
 ---
 name: Warps, Kaleidoscopes, & Psychedelia
-shortcoe: W
+shortcode: W
 ---
 
 # Warps, Kaleidoscopes, & Psychedelia (**W**)

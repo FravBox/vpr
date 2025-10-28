@@ -1,15 +1,16 @@
 ---
 layout: default
-title: Risk categories
+title: Risk Categories
 ---
 
-# Photosensitive Risk Categories
+<h1>Photosensitive Risk Categories</h1>
 
-Remember: Your source can have these naturally! Your video can be a risk without adding any effects!
+<p>Remember: Your source can have these naturally! Your video can be a risk without adding any effects!</P>
 
-TODO: Do we need to explain that "risk categories" are "triggers" ?
+<p>TODO: Do we need to explain that "risk categories" are "triggers" ?</P>
 
+<div class="collection">
 {% for risks in site.risks %}
-  <h2>{{ risks.name }} (**{{ risks.shortcode }}**)</h2>
-  <p>{{ risks.content | markdownify }}</p>
+    <div class="item">{{ risks.content | markdownify }}</div>
 {% endfor %}
+</div>
