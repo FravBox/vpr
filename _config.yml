@@ -5,7 +5,7 @@ plugins:
 title: VPR
 description: The Vidding Photosensitivity Relay is meant to serve as a consisent system for denoting photosenstivy triggers in fan-made videos. This is designed to be a commuinty-based collboration.
 
-colletions:
+collections:
   risks:
     sort_by: shortcode
     output: true
