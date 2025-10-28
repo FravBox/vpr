@@ -1,3 +1,7 @@
+---
+name: Blurs
+shortcode: B
+---
 
 # Blurs (**B**)
 Any full screen blurs or blurring effects.    

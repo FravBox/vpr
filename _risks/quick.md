@@ -1,3 +1,7 @@
+---
+name: Quick Changes
+shortcode: Q
+---
 
 # Quick Changes (Q)
 Generally speaking, almost all risk categories have things that happen quickly. "Quick Changes" is a special category for items which happen quickly but do not also fit any other category.

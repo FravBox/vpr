@@ -1,3 +1,8 @@
+---
+name: Textures, Overlays, Patterns, & Particles
+shortcode: T
+---
+
 # Textures, Overlays, Patterns, & Particles (**T**)
 
 ## Textures & Overlays

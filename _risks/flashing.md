@@ -1,3 +1,8 @@
+---
+name: Flashing & Flickering
+shortcode: F
+---
+
 # Flashing & Flickering **(F)**
 
 ## Flashing

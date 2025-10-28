@@ -1,3 +1,8 @@
+---
+name: Strobes
+shortcode: S
+---
+
 # Strobes (**S**)
 
 ## Strobing

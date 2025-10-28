@@ -1,3 +1,8 @@
+---
+name: Warps, Kaleidoscopes, & Psychedelia
+shortcoe: W
+---
+
 # Warps, Kaleidoscopes, & Psychedelia (**W**)
 ## Warps
 
