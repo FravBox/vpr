@@ -3,9 +3,13 @@ plugins:
 - jekyll-remote-theme
 
 title: VPR
-description: The Vidding Photosensitivity Relay is meant to serve as a consisent system for denoting photosenstivy triggers in fan-made videos. This is designed to be a commuinty-based collboration.
+description: The Vidding Photosensitivity Relay is meant to serve as a consistent system for denoting photosenstivy triggers in fan-made videos. This is designed to be a community-based collaboration.
 
 collections:
   risks:
+    sort_by: shortcode
+    output: true
+
+  writing:
     sort_by: shortcode
     output: true

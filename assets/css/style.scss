@@ -129,8 +129,13 @@ h2, h3, h4, h5 {
 a.top{
   display: block;
   position: sticky;
-  bottom: 0;
-  right: 0;
+  bottom: 1px;
+  float: right;
+  text-decoration: none;
+  background: var(--black);
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 5px;
 }
 
 .notice{
