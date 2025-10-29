@@ -1,5 +1,5 @@
 ---
-name: Use of &#34;Major&#34; and &#34;Minor&#34;
+name: Use of the Words Major and Minor
 shortcode: C
 ---
 
