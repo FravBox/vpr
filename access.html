@@ -1,0 +1,25 @@
+---
+layout: default
+title: Increasing Accessibility for Photosensitive Individuals
+---
+
+<h1>Increasing Accessibility for Photosensitive Individuals</h1>
+
+<details class="toc" open><summary>Table of Contents</summary>
+  <ol>
+{% for access in site.access %}
+    <li><a href="#{{ access.shortcode }}">{{ access.name }}</a></li>
+{% endfor %}
+  </ol>
+</details>
+
+<div class="collection">
+
+{% for access in site.access %}
+    <div class="anchor" id="{{ access.shortcode }}">&nbsp;</div><br /><br />
+      <div class="item">
+        <h1>{{ access.name }}</h1>
+        {{ access.content | markdownify }}
+      </div>
+{% endfor %}
+</div>

@@ -14,3 +14,11 @@ collections:
     output: true
     # for some reason all sorts aren't working??
     sort_by: shortcode
+
+  faq:
+    output: true
+    sort_by: shortcode
+
+  access:
+    output: true
+    sort_by: shortcode

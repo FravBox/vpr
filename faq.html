@@ -1,0 +1,25 @@
+---
+layout: default
+title: Frequently Asked Questions (FAQ)
+---
+
+<h1>Frequently Asked Questions (FAQ)</h1>
+
+<details class="toc" open><summary>Table of Contents</summary>
+  <ol>
+{% for faq in site.faq %}
+    <li><a href="#{{ faq.shortcode }}">{{ faq.name }}</a></li>
+{% endfor %}
+  </ol>
+</details>
+
+<div class="collection">
+
+{% for faq in site.faq %}
+    <div class="anchor" id="{{ faq.shortcode }}">&nbsp;</div><br /><br />
+      <div class="item">
+        <h1>{{ faq.name }}</h1>
+        {{ faq.content | markdownify }}
+      </div>
+{% endfor %}
+</div>
