@@ -14,6 +14,7 @@ title: How to Write VPR
 </details>
 
 <div class="collection">
+{% assign items = site.collection | sort: 'shortcode' %}
 {% for writing in site.writing %}
     <div class="anchor" id="{{ writing.shortcode }}">&nbsp;</div><br /><br />
       <div class="item">
