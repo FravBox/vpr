@@ -1,6 +1,6 @@
 ---
 name: Use of the Words Major and Minor
-shortcode: C
+number: 03
 ---
 
 ## Intensity

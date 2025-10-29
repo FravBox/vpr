@@ -11,5 +11,5 @@ collections:
     output: true
 
   writing:
-    sort_by: shortcode
+    sort_by: number
     output: true

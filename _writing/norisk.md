@@ -1,6 +1,6 @@
 ---
 name: Videos Without Any Risks
-shortcode: A
+number: 02
 ---
 
 **There will __always__ be some risk** associated with watching videos for photosensitive individuals. If you believe a video does not have any risk factors, you can use `VPR: No Known`.

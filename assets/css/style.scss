@@ -135,7 +135,7 @@ a.top{
   background: var(--black);
   padding: 5px;
   border: 1px solid;
-  border-radius: 5px;
+  border-radius: 5px !important;
 }
 
 .notice{

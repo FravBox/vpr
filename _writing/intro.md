@@ -1,6 +1,6 @@
 ---
 name: Introduction to Writing VPRs
-shortcode: B
+number: 01
 ---
 
 <div class="notice">
