@@ -97,6 +97,9 @@ a:hover:not(nav a:hover){
 }
 /* header end */
 /* CONTENT START */
+*{
+  border-radius: 10px;
+}
 
 strong {
   font-weight: bold;
@@ -149,6 +152,7 @@ details.toc {
     border: 1px solid var(--dark);
     padding: 30px;
     margin-top: 90px;
+    margin-bottom: 100px;
 }
 
 details.toc summary {

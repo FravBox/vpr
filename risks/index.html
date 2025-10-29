@@ -12,13 +12,13 @@ title: Risk Categories
 <details class="toc" open><summary>Table of Contents</summary>
   <ol>
 {% for risk in site.risks %}
-    <li><a href="{{ site.baseurl }}{{ risk.url }}">{{ risk.name }}</a></li>
+    <li><a href="#{{ risk.shortcode }}">{{ risk.name }}</a></li>
 {% endfor %}
   </ol>
 </details>
 
 <div class="collection">
 {% for risk in site.risks %}
-    <div class="item">{{ risk.content | markdownify }}</div>
+    <div class="item" id="{{ risk.shortcode }}">{{ risk.content | markdownify }}</div>
 {% endfor %}
 </div>
