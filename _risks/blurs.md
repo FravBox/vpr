@@ -3,7 +3,6 @@ name: Blurs
 shortcode: B
 ---
 
-# Blurs (**B**)
 Any full screen blurs or blurring effects.    
 Note that the blur need only be present; you do not have to see the transition from unblurred to blurred for this to count as a risk.
 

@@ -3,7 +3,6 @@ name: Warps, Kaleidoscopes, & Psychedelia
 shortcode: W
 ---
 
-# Warps, Kaleidoscopes, & Psychedelia (**W**)
 ## Warps
 
 - Any sort of [warping effect](https://www.dictionary.com/browse/warp)

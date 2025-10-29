@@ -3,8 +3,6 @@ name: Textures, Overlays, Patterns, & Particles
 shortcode: T
 ---
 
-# Textures, Overlays, Patterns, & Particles (**T**)
-
 ## Textures & Overlays
 These are any sort of texture or overlay where movement also occurs.    
 If the video moves while the overlay or texture does not, this counts as movement.

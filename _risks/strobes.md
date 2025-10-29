@@ -3,8 +3,6 @@ name: Strobes
 shortcode: S
 ---
 
-# Strobes (**S**)
-
 ## Strobing
 One of the most dangerous photosensitive risks as they are often the cause of seizures.
 **Strobes do <u>not</u> have to be single frames flashing by**; they can also be a persistent switching at a slower, but continuous interval. 

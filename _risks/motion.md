@@ -3,7 +3,6 @@ name: Motion
 shortcode: M
 ---
 
-# Motion (**M**)
 Motion effects or transitions that mimic fast camera movement can be risk factors. Such effects and transitions added in the editing process are easily identifiable, but many problematic scenes can be natural to a source.
 
 - Sweeping camera movements

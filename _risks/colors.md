@@ -3,7 +3,6 @@ name: Colors
 shortcode: C
 ---
 
-# Colors (**C**)
 This category is almost entirely exclusive to animated videos.     
 Live-action videos with scenes in this category are usually strobes, and should be labeled as such.
 

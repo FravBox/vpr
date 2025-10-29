@@ -3,8 +3,6 @@ name: Peripheral
 shortcode: P
 ---
 
-# Peripheral (**P**)
-
 Any effects or motion that happen in the peripherary or along the edges of frames/video can be risk factors.     
 Any type of peripheral effect would belong here, but **always note whether the effect is moving.**
 

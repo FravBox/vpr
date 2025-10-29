@@ -19,7 +19,7 @@ title: Risk Categories
 
 <div class="collection">
 {% for risk in site.risks %}
-    <div class="anchor" id="{{ risk.shortcode }}">&nbsp;</div><br />
+    <div class="anchor" id="{{ risk.shortcode }}">&nbsp;</div><br /><br />
       <div class="item">
         <h1>{{ risk.name }} (<strong>{{ risk.shortcode }}</strong>)</h1>
         {{ risk.content | markdownify }}

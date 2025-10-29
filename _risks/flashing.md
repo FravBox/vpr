@@ -3,8 +3,6 @@ name: Flashing & Flickering
 shortcode: F
 ---
 
-# Flashing & Flickering **(F)**
-
 ## Flashing
 Read more about flashing in the [Xbox Accessibility Guidelines](https://web.archive.org/web/20241216140828/https://learn.microsoft.com/en-us/gaming/accessibility/xbox-accessibility-guidelines/118#implementation-guidelines).
 
