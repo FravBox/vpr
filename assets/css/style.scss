@@ -47,7 +47,7 @@ a:hover:not(nav a:hover){
 
 #header, #header nav, nav {
     background: black;
-    max-width: 99%;
+    max-width: 100%;
 }
 
 #header nav ul li.title, #header nav ul li.repo, #header nav ul li.repo a{ 
@@ -97,7 +97,7 @@ a:hover:not(nav a:hover){
 }
 /* header end */
 /* CONTENT START */
-*{
+*:not(#header){
   border-radius: 10px;
 }
 
@@ -124,6 +124,13 @@ h2, h3, h4, h5 {
 :is(h1, h2, h3, h4) strong, #content ul li strong{ 
   color: var(--links);
   font-weight: bold;
+}
+
+a.top{
+  display: block;
+  position: sticky;
+  bottom: 0;
+  right: 0;
 }
 
 .notice{
