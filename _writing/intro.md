@@ -3,7 +3,7 @@ name: Introduction to Writing VPRs
 shortcode: 01
 ---
 
-<div class="notice">
+<div class="notice" style="font-size: normal; font-weight: normal;">
 <b>TL;DR:</b><br />
 Briefly describe what visually happens in the video. Use timestamps if risk factors are isolated to one section.<br />
 Make this visible somewhere before the video starts playing.

@@ -9,7 +9,7 @@ This page is designed as a community-based collaboration. You can submit issues 
 
 <div class="notice">TL;DR: It's like a CW, but for photosensitivities</div>
 
-## [Risk Factors]({{ site.github.baseurl }}/risks.html)
+<a class ="title" href="{{ site.github.baseurl }}/risks.html">Risk Factors</a>
 Collloquially considered "triggers," these are the types of items associated with physical health risks:
   <ul>
 {% for risk in site.risks %}
@@ -17,7 +17,7 @@ Collloquially considered "triggers," these are the types of items associated wit
 {% endfor %}
   </ul>
 
-## [How to write VPR]({{ site.github.baseurl }}/writing)
+<a href="{{ site.github.baseurl }}/writing.html" class="title">How to write VPR</a>
 TL;DR: Briefly describe what visually happens in the video. Use timestamps if risk factors are isolated to one section.
 Make this visible somewhere before the video starts playing.
   <ul>
