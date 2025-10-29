@@ -1,5 +1,5 @@
 ---
-name: Use of "Major" and "Minor"
+name: Use of \"Major\" and \"Minor\"
 shortcode: 02
 ---
 
