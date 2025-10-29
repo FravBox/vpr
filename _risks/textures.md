@@ -40,5 +40,5 @@ This applies to the more obvious particle effects as well as "busy scenes," such
 - Crowds of people or animals which move, e.g. Cells at Work and/or Shibuya Crossing
 - Fireworks in live-action sources or animated in a realistic/detailed way
 - Ephemeral glowing or magic
-- Particle effects such as (but not limited to): 1 | 2
+- Particle effects such as (but not limited to): 1 \| 2
 
