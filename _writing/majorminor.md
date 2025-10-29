@@ -1,6 +1,6 @@
 ---
 name: Use of &#34;Major&#34; and &#34;Minor&#34;
-shortcode: c
+shortcode: C
 ---
 
 ## Intensity
