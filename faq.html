@@ -18,7 +18,7 @@ title: Frequently Asked Questions (FAQ)
 {% for faq in site.faq %}
     <div class="anchor" id="{{ faq.shortcode }}">&nbsp;</div><br /><br />
       <div class="item">
-        <h1>{{ faq.name }}</h1>
+        <h1 style="font-size: 1.5rem">{{ faq.name }}</h1>
         {{ faq.content | markdownify }}
       </div>
 {% endfor %}

@@ -25,3 +25,18 @@ Make this visible somewhere before the video starts playing.
     <li><a href="{{site.github.baseurl}}/writing.html#{{ writing.shortcode }}">{{ writing.name }}</a></li>
 {% endfor %}
   </ul>
+
+  <a href="{{ site.github.baseurl }}/access.html" class="title">Increasing accessibility for photosensitive individuals</a>
+More solutions to allow people with photosensitivities access to more content.
+  <ul>
+{% for access in site.access %}
+    <li><a href="{{site.github.baseurl}}/access.html#{{ access.shortcode }}">{{ access.name }}</a></li>
+{% endfor %}
+  </ul>
+
+    <a href="{{ site.github.baseurl }}/faq.html" class="title">Frequently Asked Questions (FAQ)</a>
+  <ul>
+{% for faq in site.faq %}
+    <li><a href="{{site.github.baseurl}}/faq.html#{{ faq.shortcode }}">{{ faq.name }}</a></li>
+{% endfor %}
+  </ul>
