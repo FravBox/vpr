@@ -7,6 +7,9 @@
   --light: #f0d0a9;
   --text: #9d9d9d;
   --dark: #825635;
+  --black: black;
+  --white: #faf9f0;
+  --silver: silver;
 }
 
 @import "{{ site.theme }}";
@@ -58,6 +61,17 @@ a:hover:not(nav a:hover){
 
   ul { /* default style uses double arrow */
     list-style-image: none;
+  }
+
+  .wrapper{
+    max-width: 90%;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .section{
+    max-width: 90%;
   }
 
 /* start actual custom stuff */
@@ -120,4 +134,74 @@ h2, h3, h4, h5 {
   font-weight: bold;
   font-size: 1.5rem;
   color: var(--links);
+}
+
+.collection .item h1:first-child{
+  background: var(--black);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* toc stuff */
+
+
+details.toc {
+    border: 1px solid var(--dark);
+    padding: 30px;
+    margin-top: 90px;
+}
+
+details.toc summary {
+    border: 1px solid var(--dark);
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    position: relative;
+    top: -80px;
+    background-color: var(--black);
+    margin-bottom: -60px;
+}
+
+
+details.toc>summary::before {
+    /* space for note about open/closing */
+    content: '&nbsp;';
+    font-size: small;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+    color: var(--gray);
+    float: top;
+    vertical-align: super;
+    visibility: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: table;
+    padding-bottom: 5px;
+}
+
+details.toc>summary:hover {
+    background-color: #262626;
+}
+
+details.toc>summary:hover::before {
+    content: 'Click to collapse';
+    visibility: visible;
+}
+
+details.toc:not(details.toc[open])>summary:hover::before {
+    content: 'Click to expand';
+    visibility: visible;
+}
+
+
+.toc li a:hover {
+    /* all toc links on hover */
+    border-bottom: 1px solid var(--white);
+    color: var(--silver);
 }
