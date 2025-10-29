@@ -34,7 +34,7 @@ More solutions to allow people with photosensitivities access to more content.
 {% endfor %}
   </ul>
 
-    <a href="{{ site.github.baseurl }}/faq.html" class="title">Frequently Asked Questions (FAQ)</a>
+  <a href="{{ site.github.baseurl }}/faq.html" class="title">Frequently Asked Questions (FAQ)</a>
   <ul>
 {% for faq in site.faq %}
     <li><a href="{{site.github.baseurl}}/faq.html#{{ faq.shortcode }}">{{ faq.name }}</a></li>
