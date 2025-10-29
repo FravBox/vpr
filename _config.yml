@@ -12,9 +12,5 @@ collections:
 
   writings:
     output: true
-    # for some reason sort_by was not working, so I've manually input everything...
-    order:
-      - norisk.md 
-      - intro.md 
-      - majorminor.md 
-      - examples.md 
+    # for some reason all sorts aren't working??
+    sort_by: shortcode

@@ -8,14 +8,15 @@ title: How to Write VPR
 <details class="toc" open><summary>Table of Contents</summary>
   <ol>
 {% for writing in site.writing %}
-    <li><a href="#{{ writing.number }}">{{ writing.name }}</a></li>
+    <li><a href="#{{ writing.shortcode }}">{{ writing.name }}</a></li>
 {% endfor %}
   </ol>
 </details>
 
 <div class="collection">
-{% for writing in site.writings %}
-    <div class="anchor" id="{{ writing.number }}">&nbsp;</div><br /><br />
+
+{% for writing in site.writing %}
+    <div class="anchor" id="{{ writing.shortcode }}">&nbsp;</div><br /><br />
       <div class="item">
         <h1>{{ writing.name }}</h1>
         {{ writing.content | markdownify }}
