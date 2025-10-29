@@ -1,6 +1,6 @@
 ---
 name: VPR Examples
-shortcode: 03
+shortcode: 3
 ---
 
 While it is not required, it is recommended to give the short VPR variant directly followed by the standard/full VPR.

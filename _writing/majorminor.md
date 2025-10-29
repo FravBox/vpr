@@ -1,6 +1,6 @@
 ---
-name: Use of \"Major\" and \"Minor\"
-shortcode: 02
+name: Use of &#34;Major&#34; and &#34;Minor&#34;
+shortcode: 2
 ---
 
 ## Intensity
