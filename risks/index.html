@@ -19,6 +19,10 @@ title: Risk Categories
 
 <div class="collection">
 {% for risk in site.risks %}
-    <div class="item" id="{{ risk.shortcode }}">{{ risk.content | markdownify }}</div>
+    <div class="item" id="{{ risk.shortcode }}">
+      <div class="content">
+        {{ risk.content | markdownify }}
+      </div>
+    </div>
 {% endfor %}
 </div>

@@ -139,14 +139,13 @@ h2, h3, h4, h5 {
   color: var(--links);
 }
 
-.collection .item h1:first-child{
+.collection .item .content h1:first-child{
   background: var(--black);
   padding: 10px;
   border-radius: 10px;
 }
 
 /* toc stuff */
-
 
 details.toc {
     border: 1px solid var(--dark);
@@ -203,9 +202,3 @@ details.toc:not(details.toc[open])>summary:hover::before {
     visibility: visible;
 }
 
-
-.toc li a:hover {
-    /* all toc links on hover */
-    border-bottom: 1px solid var(--white);
-    color: var(--silver);
-}
