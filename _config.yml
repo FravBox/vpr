@@ -10,7 +10,7 @@ collections:
     sort_by: shortcode
     output: true
 
-  writings:
+  writing:
     output: true
     # for some reason all sorts aren't working??
     sort_by: shortcode
