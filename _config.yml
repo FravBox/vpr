@@ -10,7 +10,7 @@ collections:
     sort_by: shortcode
     output: true
 
-  writing:
+  writings:
     output: true
     # for some reason sort_by was not working, so I've manually input everything...
     order:
